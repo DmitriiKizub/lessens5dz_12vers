@@ -44,3 +44,12 @@ while menu_push != '12':
         info_os()
     elif menu_push == '8':
         print("Создаитель программы: Кизуб Дмитрий Анатольевич")
+    elif menu_push == '9':
+        from victory import vicro
+        vicro()
+    elif menu_push == '10':
+        from use_functions import my_chek
+        my_chek()
+    elif menu_push == '11':
+        from select_direct import select_dir
+        select_dir()
